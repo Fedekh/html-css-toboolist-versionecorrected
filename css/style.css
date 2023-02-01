@@ -1,9 +1,33 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* IMPOST BODY */
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+/* HEADER */
+ /*altezza fissa nell header si mette spesso e la si eguaglia a line height cosi il testo si centra*/
+.header{
+    background-color: white;
+    padding: 0 20px;
+    height: 80px;
+    line-height: 80px;
+} 
+
+/* occorre far centrare logo e h1 tra di loro con vertical align middle*/
+/* TITLE HEADER */
+.header-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* LOGO */
+.header-logo{
+    vertical-align: middle;
 }
